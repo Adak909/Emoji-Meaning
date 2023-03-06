@@ -25,7 +25,7 @@ function App() {
   }
   return (<>
     <div className='App'>
-      <h1>Enter emoji to know its meaning!!!</h1>
+      <h1>Enter emoji or click on the following emojis to know their meaning!!!</h1>
       <input type="text" onChange={handleChangeEvent} />
       <h2 className='output'>{meaning}</h2>
       <h3>Emojis we know!</h3>
