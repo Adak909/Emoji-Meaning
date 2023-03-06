@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  padding: 0.8rem;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+  border: 3px solid palevioletred;
+  border-radius: 15px;
+  background-color: lightpink;
+}
+
+.App {
+  background-color: plum;
+  padding: 20px;
+  border: 10px solid palevioletred;
+  text-align: center;
+  height: 100%;
+}
+
+h1 {
+  color: purple;
+}
+
+h3 {
+  color: purple;
+  justify-content: center;
+  display: inline;
+}
+
+.emojis {
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.output {
+  height: 20px;
+}
